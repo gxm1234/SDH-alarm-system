@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin:0 auto; font-size:12px; font-family:Times New "Times New Roman", Times, serif; line-height:1.5;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
+ul { list-style:none;}
+img { border:0px;}
+a { color:#05a; text-decoration:none;}
+a:hover { color:#f00;}
+
+/*body*/
+#container { width:900px; margin:0 auto;}
+
+/*header*/
+#header { height:70px; background:black; margin-bottom:8px;font-size:30px;text-align:center;color:white}
+
+
+/*main*/
+#maincontent { margin-bottom:8px;}
+#pie1 { float:left; width:450px; height:200px; }
+#pie2 { float:right; width:450px; height:200px; }
+#piecont1 { float:left; width:200px; height:200px; }
+#piecont2 { float:left; width:200px; height:200px; }
+#ex1 { float:right; width:250px; height:200px; }
+#ex2 { float:right; width:250px; height:200px; }
+#other{ float:down; width:900px; height:350px; }
+#up{ float:up; width:900px; height:150px; }
+#down{ float:down; width:900px; height:200px; }
+#place{ float:right; width:450px; height:150px; }
+#top5{ float:left; width:450px; height:150px; }
+#rule{ float:up; width:900px; height:100px; }
+#control{ float:down; width:900px; height:100px; }
+
+/*footer*/
+#footer { height:30px; background:black;font-size:17px;text-align:center;color:white}
+
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+
+.ref { background:white; height:50px; width:100px; color:black; border:1px solid black; font-size:18px; font-weight:bold; line-height:180%; cursor:pointer;}
