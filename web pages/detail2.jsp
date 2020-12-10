@@ -20,7 +20,7 @@ String Device = request.getParameter("Device");
 
 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"
 url="jdbc:mysql://localhost:3306/sdh_warning"
-user="root"  password="1235831459437"/>
+user="root"  password="123456"/>
 	
 <sql:query dataSource="${snapshot}" var="result">
 	SELECT * from statistics where Device =?   
