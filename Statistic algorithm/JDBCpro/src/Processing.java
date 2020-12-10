@@ -7,7 +7,7 @@ public class Processing {
 
 	
 	static final String USER = "root";
-	static final String PASS = "1235831459437";
+	static final String PASS = "123456";
 	
 	Connection con;
 	ArrayList Alarms;
@@ -128,7 +128,7 @@ public class Processing {
 	public void close(){
         try {  
             this.con.close();  
-            System.out.println("已经释放");  
+            System.out.println("脪脩戮颅脢脥路脜");  
         } catch (SQLException e) {  
             e.printStackTrace();  
         }  
